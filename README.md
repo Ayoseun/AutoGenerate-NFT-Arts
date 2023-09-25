@@ -3,13 +3,14 @@ This library is a powerful resource for creating nft collectibles by cloning one
 
 ### Features
  - #### Generate over a million distinct images with less than 60 traits
-The library allows you to generate images every distinct possible combination of your traits. For context, if you had trait art for a project like Bored Apes, the library could generate upwards of 1.2 billion distinct apes.
+The library enables you to create images from every unique combination of your traits. For context, suppose you possess the "art" trait for a project like Crypto Kitties; in such a case, the library has the capability to generate over 1.2 million distinct kitties.
  - #### Add rarity weights
-The library also allows you to configure the image generation process in such a way that you have complete control over how rare each and every trait is.
+The library also permits you to customize the image generation process, granting you full control over the rarity of each individual trait.
  - #### Generate compliant JSON metadata for your NFTs
-There is now an added functionality to generate JSON metadata for your NFTs that are in compliance with OpenSea metadata requirements (and by extension, the general NFT metadata standard).
- - #### Fuzzy friendly
+JSON metadata feature enables the generation of JSON metadata for your NFTs that adhere to OpenSea's metadata requirements and, consequently, the overarching NFT metadata standard.
+ - #### No-Level friendly
 You can use this library even if you do not know how to program (in Python or otherwise). Do check out the Tutorial for more details on how to use (non-technical) and extend (technical) the library.
+
 ### Installation
 *Clone this repository
 

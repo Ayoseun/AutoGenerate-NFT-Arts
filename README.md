@@ -12,16 +12,10 @@ JSON metadata feature enables the generation of JSON metadata for your NFTs that
 You can use this library even if you do not know how to program (in Python or otherwise). Do check out the Tutorial for more details on how to use (non-technical) and extend (technical) the library.
 
 ### Installation
-*Clone this repository
-
-run 
-```shell
-git clone https://github.com/rounakbanik/generative-art-nft.git
-```
 
 * Install required packages
 ```shell
-pip install Pillow pandas progressbar2
+pip3 install Pillow pandas progressbar2
 ```
 Next 
 -Upload your input assets in the assets folder,
@@ -29,9 +23,9 @@ Next
 -then run 
 
 ```shell
-python nft.py
+python3 generate.py
 ```
 
-In order to generate JSON metadata, define BASE_NAME, BASE_IMAGE_URL, and BASE_JSON in metadata.py and then run python metadata.py.
+In order to generate JSON metadata, define BASE_NAME, BASE_IMAGE_URL, and BASE_JSON in metadata.py and then run python3 metadata.py.
 
 #Enjoy
